@@ -1,0 +1,34 @@
+\doxysection{utils.\+h}
+\hypertarget{utils_8h_source}{}\label{utils_8h_source}\index{include/utils.h@{include/utils.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ UTILS\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ UTILS\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}scope.h"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{comment}{//\ Colors}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ RED\ \ \ \ \ "{}\(\backslash\)033[1;31m"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ GRN\ \ \ \ \ "{}\(\backslash\)033[1;32m"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ YEL\ \ \ \ \ "{}\(\backslash\)033[1;33m"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ BLU\ \ \ \ \ "{}\(\backslash\)033[1;34m"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ MAG\ \ \ \ \ "{}\(\backslash\)033[1;35m"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ CYN\ \ \ \ \ "{}\(\backslash\)033[1;36m"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ WHT\ \ \ \ \ "{}\(\backslash\)033[1;37m"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ RESET\ \ \ "{}\(\backslash\)033[0m"{}}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{comment}{//\ Logger}}
+\DoxyCodeLine{00017\ \textcolor{keywordtype}{void}\ log\_msg(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *level,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *fmt,\ ...);}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{comment}{//\ UI}}
+\DoxyCodeLine{00020\ \textcolor{keywordtype}{void}\ print\_banner(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00021\ \textcolor{keywordtype}{void}\ print\_help(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *progname);}
+\DoxyCodeLine{00022\ \textcolor{keywordtype}{void}\ loading\_animation(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{comment}{//\ Helpers}}
+\DoxyCodeLine{00025\ \textcolor{keywordtype}{void}\ print\_open\_flags(\textcolor{keywordtype}{long}\ flags);}
+\DoxyCodeLine{00026\ \textcolor{keywordtype}{void}\ print\_retval(\textcolor{keywordtype}{long}\ retval);}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
