@@ -40,9 +40,3 @@ To run SCOPE against a target binary:
 ```bash
 ./scope <program> [options]
 
-## Options
-- `-file` : Enable FileSyscalls plugin.  
-- `-net`  : Enable NetSyscalls plugin.  
-- `-exec` : Enable ExecSyscalls plugin.  
-- `-mem`  : Enable MemSyscalls plugin.  
-- `--help`: Show usage instructions.
